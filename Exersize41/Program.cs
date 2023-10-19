@@ -13,6 +13,6 @@ Console.WriteLine($"Массив введённых чисел: [{string.Join(",
 int count = 0;
 for (int i = 0; i <= M-1; i++)
 {
-    if (array[i] > 0) count = count + 1;
+    if (array[i] > 0) count++;
 }
 Console.Write($"Количество положительных чисел: {count}");

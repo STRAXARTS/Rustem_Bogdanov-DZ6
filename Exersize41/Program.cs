@@ -4,7 +4,6 @@
 Console.Write("Введите количество вводимых чисел: ");
 int M = Convert.ToInt32(Console.ReadLine());
 int [] array = new int [M];
-Console.WriteLine(M);
 for (int i = 0; i <= M-1; i++)
 {
     Console.Write($"Введите {i+1} число: ");
